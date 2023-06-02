@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagamento Inscrição</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body background="img/pagament.png">
+  <form action="" id="formulario">
     <div id="card-success" class="hidden">
         <i class="fa fa-check"></i>
         <p>Payment Successful!</p>
@@ -21,7 +22,7 @@
         <div id="card-front">
           <div id="shadow"></div>
           <div id="image-container">
-            <span id="amount">Valor do ingresso: <strong>R$79,90</strong></span>
+            <span id="amount">Valor da Inscrição: <strong>R$79,90</strong></span>
             <span id="card-image">
             
               </span>
@@ -63,6 +64,7 @@
         <button type="button" id="card-btn" onclick="preencher()">Confirmar</button>
       
       </div>
+    </form>
       <!--- end form container --->
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

@@ -26,5 +26,7 @@ function preencher(){
         alert("Digite o cvv")
     }else{
         alert("Pagamento confirmado")
+        formulario.reset();
+        formulario1.reset();
     }
 }
