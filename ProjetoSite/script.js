@@ -10,20 +10,21 @@ function preencher(){
         alert("Digite o número do cartão")
     }
     // se o endereço estiver vazio, imprima um alerta
-    if(nome==""){
+    else if(nome==""){
         alert("Digite o nome do cartão")
     }
     //se o email estiver vazio imprima um alerta
-    if(mes==""){
+    else if(mes==""){
         alert("Digite o mês de expiração")
     }
     //se o email um nao for igual ao email dois imprima um alerta de divergencia
-    if(ano==""){
-    }else{
+    else if(ano==""){
         alert("Digite o ano de expiração")
     }
     //se a senha estiver vazia imprima um alerta
-    if(cvc==""){
+    else if(cvc==""){
         alert("Digite o cvv")
+    }else{
+        alert("Pagamento confirmado")
     }
 }

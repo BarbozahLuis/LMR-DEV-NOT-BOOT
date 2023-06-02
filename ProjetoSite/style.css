@@ -5,6 +5,7 @@ body {
   position: relative;
   text-transform: uppercase;
   padding: 20px 0;
+  background-repeat: no-repeat;
 }
 
 #amount {
@@ -22,7 +23,7 @@ body {
 }
 
 #card-btn {
-  background-color: rgba(251, 251, 251, 0.8);
+  background-color: rgba(255, 255, 255, 0.007);
   color: #ffb242;
   position: absolute;
   bottom: -55px;
