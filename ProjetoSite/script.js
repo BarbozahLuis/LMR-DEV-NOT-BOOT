@@ -1,32 +1,35 @@
-function preencher(){
-    var cartao = document.getElementById('card-number').value;
-    var nome = document.getElementById('card-holder').value;
-    var mes = document.getElementById('card-month').value;
-    var ano = document.getElementById('card-year').value;
-    var cvc = document.getElementById('card-cvc').value;
+function preencher(){//criar variavel para puxar os input de digitação, nome, endereço, email, conf email, senha e conf senha
+    var nome = document.getElementById('pNome').value;
+    var endereco = document.getElementById('pEndereco').value;
+    var email = document.getElementById('pEmail').value;
+    var email2 = document.getElementById('pEmail2').value;
+    var senha = document.getElementById('pSenha').value;
+    var senha2 = document.getElementById('pSenha2').value;
 
     //se o espaço nome estiver vazio, imprima um alerta
-    if(cartao==""){
-        alert("Digite o número do cartão")
+    if(nome==""){
+        alert("Digite seu Nome")
     }
     // se o endereço estiver vazio, imprima um alerta
-    else if(nome==""){
-        alert("Digite o nome do cartão")
+    if(endereco==""){
+        alert("Digite seu Endereço")
     }
     //se o email estiver vazio imprima um alerta
-    else if(mes==""){
-        alert("Digite o mês de expiração")
+    if(email==""){
+        alert("Digite seu E-mail")
     }
     //se o email um nao for igual ao email dois imprima um alerta de divergencia
-    else if(ano==""){
-        alert("Digite o ano de expiração")
+    if(email==email2){
+    }else{
+        alert("Email divergente")
     }
     //se a senha estiver vazia imprima um alerta
-    else if(cvc==""){
-        alert("Digite o cvv")
+    if(senha==""){
+        alert("Digite a senha")
+    }
+    //se a senha não for igual a senha dois imprima um alerta de divergencia
+    if(senha==senha2){
     }else{
-        alert("Pagamento confirmado")
-        formulario.reset();
-        formulario1.reset();
+        alert("Senha divergente")
     }
 }
