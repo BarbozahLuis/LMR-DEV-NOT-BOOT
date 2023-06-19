@@ -5,5 +5,11 @@ body {
   position: relative;
   
 }
+.navbar{
+  background-color: rgb(85, 37, 130);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
